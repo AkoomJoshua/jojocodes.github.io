@@ -1,0 +1,567 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #808080;
+    color: #000000;
+}
+meter{
+    height: 50px;
+    width: 300px;
+    float: left;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid #000000;
+}
+ul{
+    padding-top: 10px;
+    list-style-type: none;
+    display: block;
+    float: right;
+    padding-right: 25px;
+}
+li{
+    float: left;
+}
+li a {
+    text-decoration: none;
+    padding: 16px 14px;
+}
+.intro{
+    height: 400px;
+    width: 100%;
+}
+
+.intro > div{
+    float: left;
+    width: 50%;
+}
+.intro h1{
+    font-size: 45px;
+    padding-left:  200px;
+    padding-top: 150px;
+}
+.intro h2{
+    padding-left:  200px;
+    padding-top: 25px;
+    color: #00008b;
+}
+.intro p{
+    padding-left:  200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    width: 55%;
+}
+.intro img{
+    float: right;
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    border: 5px solid #00008b;
+    margin-right: 100px;
+}
+.first-button{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #00008b;
+    border-radius: 10%;
+    margin-left: 200px;
+    margin-top: 25px;
+    float: left;
+}
+.second-button{
+    background-color: black;
+    margin-left: 25px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10%;
+    float: left;
+    margin-top: 25px;
+}
+.intro a{
+    text-decoration: none;
+}
+.skills{
+    margin-top: 200px;
+    height: 600px;
+    width: 100%;
+}
+.skills-container1 {
+    padding-left: 150px;
+    float: left;
+    width: 40%;
+    padding-top: 50px;
+}
+.skills-container2 {
+    padding-left: 150px;
+    float: left;
+    width: 30%;
+    padding-top: 50px;
+}
+.skills-semi-container {
+    height: 50px;
+    clear: left;
+}
+
+.skills p{
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.skills h1{
+    text-align: center;
+    color: #00008b;
+}
+.soft-skills p{
+    clear: left;
+}
+.services{
+    background-image: url("assets/img/background.jpg");
+    height: 600px;
+    width: 100%;
+}
+#services-container{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(00, 00, 00, 0.8);
+}
+.services-child-container{
+    height: 350px;
+    width: 25%;
+    margin-left: 75px;
+    background-color: white;
+    color: darkblue;
+    float: left;
+    border-radius: 15px;
+}
+.services h1{
+    font-size: 35px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: darkblue;
+}
+.services p{
+    color: darkblue;
+    background-color: white;
+    padding: 50px;
+    padding-top: 150px;
+    font-size: 33px;
+}
+.work{
+    height: 600px; 
+    width: 100%;
+}
+.work h1{
+    text-align: center;
+    color: darkblue;
+    padding-top: 50px;
+}
+.work img {
+    height: 300px;
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 2px solid #000000;
+}
+.message{
+    height: 650px;
+    width: 100%;
+}
+.message h1{
+    text-align: center;
+    color: #00008b;
+    padding-top: 70px;
+}
+.form-1sthalf{
+    width: 35%;
+    float: left;
+}
+.form-2ndhalf{
+    width: 55%;
+    float: left;
+}
+#submit{
+ background-color: #00008b;
+ color: #ffffff;
+ padding: 5px;
+ border-radius: 10px;
+ float: right;
+ clear: both; 
+ margin-top: 25px;
+ margin-right: 300px;
+ width: 75px;
+}
+.message input{
+    height: 50px;
+    width: 550px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    float: left;
+    clear: left;
+    margin-top: 25px;
+    padding-left: 25px;
+    font-size: 15px;
+}
+.message p{
+    font-size: 20px;
+    float: left;
+    clear: left;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.contact{
+    height: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.contact h1{
+    text-align: center;
+    color: #00008b;
+}
+.contact img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    border-radius: 25%;
+    margin-top: 50px;
+}
+.contact-container{
+    margin-left: 250px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    border-top: 2px solid black;
+}
+footer p{
+    float: right;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+.intermediate-class{
+    display: none;
+}
+footer b{
+    float: left;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+@media screen and (max-width : 1200px)  {
+ ul{
+     padding-right: 25px;
+ }
+.intro {
+    height: 350px;
+}
+.intro > div{
+    width: 48%;
+}
+.intro h1 {
+    padding-left: 100px;
+    padding-top: 75px;
+    padding-right: 0px;
+    font-size: 30px;
+}
+.intro h2 {
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-right: 0px;
+}
+.intro p{
+    width: 100%;
+    padding-left: 100px;
+}
+.intro img{
+    margin-top: 25px;
+    height: 300px;
+    width: 300px;
+    margin-right: 450px;
+}
+.first-button{
+    margin-left: 100px;
+}
+.skills{
+    margin-top: 50px;
+}
+.skills-container1{
+    width: 60%;
+    padding-left: 100px;
+}
+.skills-container2{
+    width: 20%;
+    padding-left: 50px;
+}
+.services-child-container{
+    margin-left: 65px;
+    
+}
+.services p{
+    font-size: 25px;
+}
+.work img{
+    margin-top: 75px;
+    margin-left: 50px;
+}
+.message p{
+    margin-left: 100px;
+}
+.message input{
+    width: 400px;
+}
+#submit{
+    margin-right: 170px;
+    margin-top: 25px;
+}
+.contact img{
+    margin-left: 75px;
+}
+.contact-container{
+    margin-left: 80px;
+}
+.intermediate-class{
+    display: none;
+}
+}
+@media screen and ( max-width : 900px) {
+    ul{
+    padding-right: 20px;
+} 
+   .skills-container1{
+     width: 100%;
+     padding-left: 50px;
+ }   
+ .skills-container2 {
+     width: 100%;
+     padding-left: 50px;
+    }
+.intro h2{
+    padding-right: 0px;
+}
+.intro > div{
+    width: 100%;
+}
+.intro p{
+    padding-right: 0px;
+}
+.intro img{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-right: 350px;
+}
+.intro h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.intro h2{
+    padding-left: 50px;
+}
+.intro p{
+    padding-left: 50px;
+}
+.first-button {
+    margin-left: 50px;
+}
+.skills{
+    margin-top: 300px;
+}
+.skills h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.services{
+    height: 1000px;
+    margin-top: 100px;
+}
+.services h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.services-child-container{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 100px;
+}
+.services p{
+    padding-top: 100px;
+    font-size: 20px;
+}
+.services h1{
+    padding-top: 100px;
+}
+.services-container{
+    background-image: none;
+}
+.work{
+    clear: left;
+    margin-top: 200px;
+}
+.work h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.work img{
+    clear: left;
+    margin-left: 100px;
+    height: 250px;
+    width: 50%;
+}
+.message{
+    clear: left ;
+}
+.message h1{
+    text-align: left;
+    padding-left: 50px;
+}
+.message input{
+    height: 35px;
+    width: 300px;
+}
+.message p{
+ font-size: 15px;
+ margin-left: 50px;
+}
+#submit{
+    margin-right: 125px;
+}
+.contact img{
+    height: 35px;
+    width: 35px;
+    margin-left: 50px;
+}
+footer p{
+    padding-top: 10px;
+}
+.contact{
+    height: 100px;
+}
+.contact h1{
+    text-align: left;
+    padding-left: 50px;
+}
+}
+@media screen and ( max-width : 700px ) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    ul{
+        display: none;
+    }
+    .intro h1{
+        width: 30%;
+        font-size: 20px;
+    }
+    .intro h2{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .intro p{
+        width: 50%;
+    }
+    .intro{
+        height: 325px;
+    }
+    .intro img{
+        display: none;
+    }
+    .skills p{
+        margin-top: 10px;
+        clear: both;
+    }
+    .first-button{
+        margin-left: 50px;
+        padding: 5px;
+    }
+    .second-button{
+        clear: left;
+        margin-left: 50px;
+        padding: 5px;
+    }
+    .skills{
+        margin-bottom: 250px;
+    }
+    .services p{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .services-child-container{
+        height: 150px;
+        margin-top: 25px;
+        margin-left: 50px;
+        float: left;
+        width: 50%;       
+    }
+    .services{
+        height: 850px;
+        margin-top:125px;
+    }
+    .services-container{
+        display: none;
+    }
+    .work img{
+        width: 60%;
+        margin-left: 50px;
+    }
+    .work{
+        margin-top: 0px;
+    }
+    .contact{
+        height: 50px;
+        margin-top: 0px; 
+    }
+    .contact img{
+     margin-left: 15px;
+     height: 25px;
+     width: 25px;
+    } 
+    meter{
+        width: 200px;
+        clear: both;
+    }
+    .contact-container{
+     margin-left: 25px;
+    }
+    .form-1sthalf{
+        display: none;
+    }
+    .form-2ndhalf{
+        display: none;
+    }
+    .intermediate-class{
+        display: contents;
+    }
+    .intermediate-class p{
+        float: left;
+    }
+    .work img{
+        width: 45%;
+        height: 200px;
+    }   
+    .intermediate-class input{
+        float: left;
+        clear: left;
+        margin-left: 50px;
+        margin-top: 10px;
+        width: 200px;
+    }
+    .intermediate-class p{
+        margin-top: 25px;
+    }
+    #submit{
+        padding: 5px;
+        float: left;
+        margin-left: 50px;
+    }
+    footer b{
+        padding-left: 5px;
+        display: none;
+    }
+}
